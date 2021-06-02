@@ -50,7 +50,6 @@ class MyResource {
             }
 
             System.out.println(Thread.currentThread().getName() + "\t 消费队列" + result + "成功");
-            TimeUnit.SECONDS.sleep(1);
         }
     }
 
