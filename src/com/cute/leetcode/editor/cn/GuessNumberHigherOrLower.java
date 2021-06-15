@@ -59,7 +59,7 @@
 package com.cute.leetcode.editor.cn;
 public class GuessNumberHigherOrLower {
     public static void main(String[] args) {
-        Solution solution = new GuessNumberHigherOrLower().new Solution();
+        // Solution solution = new GuessNumberHigherOrLower().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 /** 
@@ -71,7 +71,7 @@ public class GuessNumberHigherOrLower {
  * int guess(int num);
  */
 
-public class Solution extends GuessGame {
+/*public class Solution extends GuessGame {
     public int guessNumber(int n) {
         int start = 1, end = n;
         while(start < end) {
@@ -84,7 +84,7 @@ public class Solution extends GuessGame {
         }
         return start;
     }
-}
+}*/
 //leetcode submit region end(Prohibit modification and deletion)
 
 }

@@ -21,13 +21,13 @@
 package com.cute.leetcode.editor.cn;
 public class FirstBadVersion {
     public static void main(String[] args) {
-        Solution solution = new FirstBadVersion().new Solution();
+        // Solution solution = new FirstBadVersion().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
 
-public class Solution extends VersionControl {
+/*public class Solution extends VersionControl {
     public int firstBadVersion(int n) {
         int left = 1, right = n;
         while (left < right) {
@@ -41,7 +41,7 @@ public class Solution extends VersionControl {
         }
         return left;
     }
-}
+}*/
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
